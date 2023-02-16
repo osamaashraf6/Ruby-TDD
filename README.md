@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [School-Library-OOP-Ruby] <a name="about-project"></a>
+# 📖 [TDD project] <a name="about-project"></a>
 
-> Ruby-OOP-School-Library Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them
+> In this project we will implement a class with some methods, but we will do it by doing test-driven development (TDD). The idea is to write tests first and then the code. This will be verified in our commits history, so it is important to use the proper sequence.
 
 
 
@@ -35,6 +35,7 @@
 
 - [x] Ruby👌
 - [x] OOP ruby
+- [x] Rspec test 
 
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -43,7 +44,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">ruby.js</a></li>
   </ul>
 </details>
 
@@ -66,9 +67,9 @@
 ### Key Features <a name="key-features"></a>
 
 
-- [ ] Add Person class and his method👌
-- [ ] Add Student class and his method💯
-- [ ] Add Teachers class and his method👌
+- [ ] Write unit tests using Rspec.👌
+- [ ] Understand an existing codebase in a way that allows for adding tests💯
+- [ ] Write Rspec unit tests with mocks.👌
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,8 +111,8 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd School-Library-OOP-Ruby
-  git clone https://github.com/osamaashraf6/School-Library-OOP-Ruby
+  cd Ruby-Capstone-TDD
+  git clone https://github.com/osamaashraf6/Ruby-Capstone-TDD
 ```
 
 
@@ -143,6 +144,9 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
+```test
+rspec ./spec/solver_spec.rb
+```
 
 <!--
 Example command:
@@ -155,6 +159,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+> Using : Netlify or Render
 
 <!--
 Example:
@@ -172,10 +177,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Author**
 - GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
 - Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
 - LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
+
 
 
 
@@ -230,8 +236,6 @@ I would like to thank Microverse for this opportunity.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/osamaashraf6/School-Library-OOP-Ruby/blob/classes__1/MIT.md) licensed.
+This project is [MIT](https://github.com/osamaashraf6/Ruby-Capstone-TDD/blob/dev/LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
